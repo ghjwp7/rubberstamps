@@ -1,5 +1,5 @@
 ### ghjwp7/rubberstamps repository on github
-# jStamp - OpenSCAD program for customized 3D stamps
+## jStamp - OpenSCAD program for customized 3D stamps
 
 jStamp is a simple OpenSCAD program to generate a one-line stamp.
 
@@ -21,3 +21,7 @@ If you have OpenSCAD installed on your computer system, you can customize the st
   To choose a different set of parameters, click the down triangle next to `design default values`.
 
   When satisfied with a customization, click `+` to add a new preset name, then click `save preset`.
+
+## License
+
+Available for use without warranty under GPL v3 terms per http://www.gnu.org/licenses/gpl.html
