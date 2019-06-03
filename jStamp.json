@@ -1,0 +1,23 @@
+{
+    "parameterSets": {
+        "size 9, 70x24mm plate": {
+            "baseBreadth": "24",
+            "baseThick": "4",
+            "baseWidth": "70",
+            "fontCode": "Liberation Serif:style=Bold",
+            "stampScale": "9",
+            "standOut": "2",
+            "theText": "Vote by Mail"
+        },
+        "size 6, 50x16 plate": {
+            "baseBreadth": "16",
+            "baseThick": "4",
+            "baseWidth": "50",
+            "fontCode": "Liberation Serif:style=Bold",
+            "stampScale": "6",
+            "standOut": "2",
+            "theText": "Vote by Mail"
+        }
+    },
+    "fileFormatVersion": "1"
+}
