@@ -11,18 +11,18 @@ fontCode="Liberation Serif:style=Bold";
 stampScale=9;
 // Base Width, mm
 baseWidth=70;
-// Base Length, mm
-baseBreadth=24;
 // Base Thickness, mm
-baseThick=4;
+baseThick=3.9;
 // Letter projection, mm
-standOut=2;
+standOut=1.8;
 
+baseBreadth=(stampScale*3)/2;
 { union() {
+    color("green")
     linear_extrude(baseThick+standOut)
       mirror([1,0,0])
         text(theText, size=stampScale, font=fontCode, halign="center");
-    translate([-baseWidth/2, -baseBreadth/3, 0]) 
+    translate([-baseWidth/2, -baseBreadth/4, -0.01]) 
       cube([baseWidth, baseBreadth, baseThick], center=false);
   }
 }
