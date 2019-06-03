@@ -2,7 +2,7 @@ This repository contains a simple OpenSCAD program to generate a one-line stamp.
 
 Besides the program (jStamp.scad) there is a parameters file (jStamp.json), one example image (jStamp.png), an .stl file (jStamp.50x16.stl) and a .gcode file (jStamp.50x16.gcode).  You can put the .stl file through your own 3D slicer if you don't have access to OpenSCAD, or can try 3D printing the .gcode file as is.
   
-If you have OpenSCAD installed on your computer system, you can customize the stamp by changing the text, text font, text size, text projection, and base-plate size.  (If you don't have it installed and wish to do so, look for a version newer than January 2017, which is necessary for customizer support.)
+If you have OpenSCAD installed on your computer system, you can customize the stamp by changing the text, text font, text size, text projection, and base-plate width.  (If you don't have it installed and wish to do so, look for a version newer than January 2017, which is necessary for customizer support.)
 
 Notes for use of Customizer:
 
