@@ -4,7 +4,7 @@ Besides the program (jStamp.scad) there is a parameters file (jStamp.json), one 
   
 If you have OpenSCAD installed on your computer system, you can customize the stamp by changing the text, text font, text size, text projection, and base-plate size.  (If you don't have it installed and wish to do so, look for a version newer than January 2017, which is necessary for customizer support.)
 
-<h1>Notes for use of Customizer:</h1>
+Notes for use of Customizer:
 
   Uncheck View/HideCustomizer if Customizer panel doesn't appear.
 
