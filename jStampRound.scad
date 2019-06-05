@@ -15,9 +15,8 @@ textScale=9;
 standOut=1.8;
 // Base Width, mm
 baseWidth=80;
-// Render before view if checked
-renderFirst=true;
-
+// Render before view if non-zero
+renderFirst=1;
 /* [Handle and Cylinder parameters] */
 // Base Thickness, mm
 baseThick=3.9;
@@ -94,3 +93,9 @@ if (renderFirst) {
 } else {
   assembly();
 }
+/* Local Variables:   */
+/* mode:        scad  */
+/* tab-width:      2  */
+/* c-basic-offset: 2  */
+/* End:               */
+
